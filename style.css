@@ -36,8 +36,11 @@ body {
 	font-weight: bold;
 	font-size: 1.2em;
 	letter-spacing: 2px;
-  color: #44e3ee;
+  color: #080f0f;
+  /* Add a simple shadow to make the logo stand out */
+  text-shadow: 2px 2px 4px #f8f7f7;
 }
+
 .nav-links {
 	list-style: none;
 	display: flex;
@@ -45,9 +48,14 @@ body {
 }
 .nav-links a {
 	text-decoration: none;
-	color: #dce6e6;
-	font-size: 1em;
+	color: #cccfcf;
+	font-size: 1.5em;
 	transition: color 0.2s;
+  /* Add a thin border around the link text to make it stand out */
+  border: 3px solid #0e0707;
+  border-radius: 6px; /* Rounded corners for a softer look */
+  padding: 2px 8px; /* Add some space around the text */
+  text-shadow: 2px 2px 4px #09060c;
 }
 .nav-links a:hover {
 	color: #49e9e9;
@@ -135,6 +143,16 @@ section {
 	min-width: 100px;
 	text-align: center;
 	box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+}
+
+/* Footer Styles */
+.footer {
+  background: #222; /* Dark background for the footer */
+  color: #fff; /* White text color */
+  text-align: center; /* Center the text */
+  padding: 16px 0; /* Space above and below the text */
+  font-size: 1em;
+  margin-top: 30px; /* Space above the footer */
 }
 
 /* Responsive for small screens */
